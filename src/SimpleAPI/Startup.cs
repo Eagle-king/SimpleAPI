@@ -14,6 +14,7 @@ using Microsoft.OpenApi.Models;
 
 namespace SimpleAPI
 {
+    //The Begining of Startup Class 
     public class Startup
     {
         public Startup(IConfiguration configuration)
@@ -55,5 +56,6 @@ namespace SimpleAPI
                 endpoints.MapControllers();
             });
         }
+        //End of the Startup class
     }
 }
